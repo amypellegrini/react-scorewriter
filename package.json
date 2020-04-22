@@ -7,11 +7,34 @@
   "author": "<amyvpellegrini@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "test": "jest",
+    "test -w": "jest --watch",
+    "sb": "storybook",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
   "dependencies": {
+    "@storybook/preset-typescript": "^3.0.0",
+    "@storybook/react": "^5.3.18",
+    "@types/jest": "^25.2.1",
+    "prettier": "^2.0.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "typescript": "^3.7.5"
   },
   "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-info": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@testing-library/react": "^10.0.2",
+    "babel-loader": "^8.1.0",
     "jest": "^25.3.0",
-    "storybook": "^5.3.18"
+    "react-docgen-typescript-loader": "^3.7.2",
+    "storybook": "^5.3.18",
+    "ts-jest": "^25.4.0",
+    "ts-loader": "^7.0.1"
   }
 }
