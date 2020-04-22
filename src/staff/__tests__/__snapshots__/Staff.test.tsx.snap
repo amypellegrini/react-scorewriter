@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Staff renders 1`] = `
+<div>
+  <svg
+    data-testid="staff"
+    height="101"
+    style="overflow: visible;"
+    viewBox="0 0 2000 101"
+    width="2000"
+    x="0"
+    y="0"
+  >
+    <line
+      stroke="black"
+      stroke-width="2"
+      x1="0"
+      x2="2000"
+      y1="0"
+      y2="0"
+    />
+    <line
+      stroke="black"
+      stroke-width="2"
+      x1="0"
+      x2="2000"
+      y1="25"
+      y2="25"
+    />
+    <line
+      stroke="black"
+      stroke-width="2"
+      x1="0"
+      x2="2000"
+      y1="50"
+      y2="50"
+    />
+    <line
+      stroke="black"
+      stroke-width="2"
+      x1="0"
+      x2="2000"
+      y1="75"
+      y2="75"
+    />
+    <line
+      stroke="black"
+      stroke-width="2"
+      x1="0"
+      x2="2000"
+      y1="100"
+      y2="100"
+    />
+  </svg>
+</div>
+`;
