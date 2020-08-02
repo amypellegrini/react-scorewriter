@@ -2,7 +2,7 @@
   "name": "react-scorewriter",
   "version": "0.0.0-alpha.1",
   "description": "React sheet music renderer",
-  "main": "lib/index.ts",
+  "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": "git@github.com:amypellegrini/react-scorewriter.git",
   "author": "<amyvpellegrini@gmail.com>",
@@ -13,7 +13,8 @@
     "test -w": "jest --watch",
     "sb": "storybook",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "build": "tsc"
   },
   "dependencies": {
     "react": "^16.13.1"
