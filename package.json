@@ -2,7 +2,8 @@
   "name": "react-scorewriter",
   "version": "0.0.0-alpha.0",
   "description": "React sheet music renderer",
-  "main": "src/index.ts",
+  "main": "lib/index.ts",
+  "types": "lib/index.d.ts",
   "repository": "git@github.com:amypellegrini/react-scorewriter.git",
   "author": "<amyvpellegrini@gmail.com>",
   "license": "MIT",
@@ -15,13 +16,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "@storybook/preset-typescript": "^3.0.0",
-    "@storybook/react": "^5.3.18",
-    "@types/jest": "^25.2.1",
-    "prettier": "^2.0.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "typescript": "^3.7.5"
+    "react": "^16.13.1"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
@@ -29,12 +24,19 @@
     "@storybook/addon-info": "^5.3.18",
     "@storybook/addon-links": "^5.3.18",
     "@storybook/addons": "^5.3.18",
+    "@storybook/preset-typescript": "^3.0.0",
+    "@storybook/react": "^5.3.18",
     "@testing-library/react": "^10.0.2",
+    "@types/jest": "^25.2.1",
+    "@types/node": "13.11.1",
     "babel-loader": "^8.1.0",
     "jest": "^25.3.0",
+    "prettier": "^2.0.4",
     "react-docgen-typescript-loader": "^3.7.2",
+    "react-dom": "^16.13.1",
     "storybook": "^5.3.18",
     "ts-jest": "^25.4.0",
-    "ts-loader": "^7.0.1"
+    "ts-loader": "^7.0.1",
+    "typescript": "^3.7.5"
   }
 }

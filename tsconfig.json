@@ -1,6 +1,15 @@
 {
   "compilerOptions": {
+    "target": "ES2015",
+    "module": "esnext",
+    "strict": true,
     "esModuleInterop": true,
-    "jsx": "react"
-  }
+    "jsx": "react",
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "outDir": "./lib",
+    "declaration": true
+  },
+  "include": ["./src"],
+  "exclude": ["./**/__tests__/*", "./**/*.stories.tsx"]
 }
