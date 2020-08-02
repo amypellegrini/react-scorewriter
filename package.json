@@ -1,6 +1,6 @@
 {
   "name": "react-scorewriter",
-  "version": "0.0.0-alpha",
+  "version": "0.0.0-alpha.0",
   "description": "React sheet music renderer",
   "main": "src/index.ts",
   "repository": "git@github.com:amypellegrini/react-scorewriter.git",
