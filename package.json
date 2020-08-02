@@ -1,6 +1,6 @@
 {
   "name": "react-scorewriter",
-  "version": "0.0.0-alpha.1",
+  "version": "0.0.0-alpha.2",
   "description": "React sheet music renderer",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
