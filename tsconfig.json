@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ES2015",
+    "target": "es5",
     "module": "esnext",
     "strict": true,
     "esModuleInterop": true,
@@ -8,7 +8,9 @@
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node",
     "outDir": "./lib",
-    "declaration": true
+    "declaration": true,
+    "lib": ["ES2015", "ES6"],
+    "types": ["node"]
   },
   "include": ["./src"],
   "exclude": ["./**/__tests__/*", "./**/*.stories.tsx"]
