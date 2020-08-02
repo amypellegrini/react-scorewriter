@@ -10,7 +10,7 @@
     "outDir": "./lib",
     "declaration": true,
     "lib": ["ES2015", "ES6"],
-    "types": ["node"]
+    "types": ["node", "jest"]
   },
   "include": ["./src"],
   "exclude": ["./**/__tests__/*", "./**/*.stories.tsx"]
