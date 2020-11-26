@@ -1,13 +1,17 @@
 import React from "react";
-import Staff from "./Staff";
-import { storiesOf } from "@storybook/react";
+import { Story } from '@storybook/react/types-6-0';
 
-storiesOf("Staff", module).add("default", () => {
-  return (
-    <div style={{ width: "100%" }}>
-      <svg width="100%" viewBox="0 -1 2000 102">
-        <Staff />
-      </svg>
-    </div>
-  );
-});
+import Staff, {StaffProps} from "./Staff";
+
+export default {
+  component: Staff,
+  title: 'Staff',
+};
+
+const Template: Story<StaffProps> = (args) => <Staff {...args} />;
+
+export const Default = Template.bind({});
+
+Default.args = {
+  /* We can add props to Staff component here! Like, ```hi: "Bye"``` */
+};
