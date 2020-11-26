@@ -8,10 +8,27 @@ export default {
   title: 'Staff',
 };
 
-const Template: Story<StaffProps> = (args) => <Staff {...args} />;
+const StaffTemplate: Story<StaffProps> = (args) => <Staff {...args} />;
 
-export const Default = Template.bind({});
+export const Default = StaffTemplate.bind({});
 
 Default.args = {
   /* We can add props to Staff component here! Like, ```hi: "Bye"``` */
 };
+
+const WrapTemplate: Story<StaffProps> = (args) => (
+  <div
+    style={{
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      height: "20%",
+      width: "100%"
+    }}
+  >
+    <Staff {...args} />
+  </div>
+);
+
+export const SizeConfigured = WrapTemplate.bind({});
+SizeConfigured.args = {}; 

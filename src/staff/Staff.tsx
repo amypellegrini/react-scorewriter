@@ -37,32 +37,32 @@ export default function Staff({
       />
       <line
         x1="0"
-        y1="3"
+        y1="25"
         x2={width}
-        y2="3"
+        y2="25"
         strokeWidth="1"
         stroke="black"
       />
       <line
         x1="0"
-        y1="5"
+        y1="50"
         x2={width}
-        y2="5"
+        y2="50"
         strokeWidth="1"
         stroke="black"
       />
       <line
         x1="0"
-        y1="7"
+        y1="75"
         x2={width}
-        y2="7"
+        y2="75"
         strokeWidth="1"
         stroke="black" />
       <line
         x1="0"
-        y1="9"
+        y1="99"
         x2={width}
-        y2="9"
+        y2="99"
         strokeWidth="1"
         stroke="black"
       />
