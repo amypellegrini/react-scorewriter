@@ -13,7 +13,7 @@ exports[`Staff Renders with defaults 1`] = `
   >
     <line
       stroke="black"
-      stroke-width="1"
+      stroke-width="2"
       x1="0"
       x2="100"
       y1="1"
@@ -21,7 +21,7 @@ exports[`Staff Renders with defaults 1`] = `
     />
     <line
       stroke="black"
-      stroke-width="1"
+      stroke-width="2"
       x1="0"
       x2="100"
       y1="25"
@@ -29,7 +29,7 @@ exports[`Staff Renders with defaults 1`] = `
     />
     <line
       stroke="black"
-      stroke-width="1"
+      stroke-width="2"
       x1="0"
       x2="100"
       y1="50"
@@ -37,7 +37,7 @@ exports[`Staff Renders with defaults 1`] = `
     />
     <line
       stroke="black"
-      stroke-width="1"
+      stroke-width="2"
       x1="0"
       x2="100"
       y1="75"
@@ -45,7 +45,7 @@ exports[`Staff Renders with defaults 1`] = `
     />
     <line
       stroke="black"
-      stroke-width="1"
+      stroke-width="2"
       x1="0"
       x2="100"
       y1="99"
@@ -71,7 +71,7 @@ exports[`Staff Renders with sizes 1`] = `
     >
       <line
         stroke="black"
-        stroke-width="1"
+        stroke-width="2"
         x1="0"
         x2="100"
         y1="1"
@@ -79,7 +79,7 @@ exports[`Staff Renders with sizes 1`] = `
       />
       <line
         stroke="black"
-        stroke-width="1"
+        stroke-width="2"
         x1="0"
         x2="100"
         y1="25"
@@ -87,7 +87,7 @@ exports[`Staff Renders with sizes 1`] = `
       />
       <line
         stroke="black"
-        stroke-width="1"
+        stroke-width="2"
         x1="0"
         x2="100"
         y1="50"
@@ -95,7 +95,7 @@ exports[`Staff Renders with sizes 1`] = `
       />
       <line
         stroke="black"
-        stroke-width="1"
+        stroke-width="2"
         x1="0"
         x2="100"
         y1="75"
@@ -103,7 +103,7 @@ exports[`Staff Renders with sizes 1`] = `
       />
       <line
         stroke="black"
-        stroke-width="1"
+        stroke-width="2"
         x1="0"
         x2="100"
         y1="99"
