@@ -1,31 +1,66 @@
-import React from "react";
+import React from 'react';
 
-type StaffProps = {
-  y?: number;
-  width?: number;
-};
+import './Staff.css';
 
-export default function Staff({ y = 0, width = 2000 }: StaffProps) {
+export interface StaffProps extends React.SVGAttributes<HTMLOrSVGElement> {}
+
+export default function Staff({
+  x = 0,
+  y = 0,
+  viewBox = `0 0 100 100`,
+  height = '100',
+  width = '100',
+  preserveAspectRatio = 'none',
+  strokeWidth = '2',
+}: StaffProps) {
   return (
     <svg
       data-testid="staff"
-      x="0"
+      x={x}
       y={y}
-      viewBox={`0 0 ${width} 101`}
+      viewBox={viewBox}
       width={width}
-      height={101}
-      style={{ overflow: "visible" }}
+      height={height}
+      preserveAspectRatio={preserveAspectRatio}
     >
-      <line x1="0" y1="0" x2={width} strokeWidth="2" y2="0" stroke="black" />
-      <line x1="0" y1="25" x2={width} strokeWidth="2" y2="25" stroke="black" />
-      <line x1="0" y1="50" x2={width} strokeWidth="2" y2="50" stroke="black" />
-      <line x1="0" y1="75" x2={width} strokeWidth="2" y2="75" stroke="black" />
       <line
         x1="0"
-        y1="100"
-        x2={width}
-        strokeWidth="2"
-        y2="100"
+        y1="1"
+        x2="100"
+        y2="1"
+        strokeWidth={strokeWidth}
+        stroke="black"
+      />
+      <line
+        x1="0"
+        y1="25"
+        x2="100"
+        y2="25"
+        strokeWidth={strokeWidth}
+        stroke="black"
+      />
+      <line
+        x1="0"
+        y1="50"
+        x2="100"
+        y2="50"
+        strokeWidth={strokeWidth}
+        stroke="black"
+      />
+      <line
+        x1="0"
+        y1="75"
+        x2="100"
+        y2="75"
+        strokeWidth={strokeWidth}
+        stroke="black"
+      />
+      <line
+        x1="0"
+        y1="99"
+        x2="100"
+        y2="99"
+        strokeWidth={strokeWidth}
         stroke="black"
       />
     </svg>

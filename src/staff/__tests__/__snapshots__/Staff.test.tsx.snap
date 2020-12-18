@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Staff renders 1`] = `
+exports[`Staff Renders with defaults 1`] = `
 <div>
   <svg
     data-testid="staff"
-    height="101"
-    style="overflow: visible;"
-    viewBox="0 0 2000 101"
-    width="2000"
+    height="100"
+    preserveAspectRatio="none"
+    viewBox="0 0 100 100"
+    width="100"
     x="0"
     y="0"
   >
@@ -15,15 +15,15 @@ exports[`Staff renders 1`] = `
       stroke="black"
       stroke-width="2"
       x1="0"
-      x2="2000"
-      y1="0"
-      y2="0"
+      x2="100"
+      y1="1"
+      y2="1"
     />
     <line
       stroke="black"
       stroke-width="2"
       x1="0"
-      x2="2000"
+      x2="100"
       y1="25"
       y2="25"
     />
@@ -31,7 +31,7 @@ exports[`Staff renders 1`] = `
       stroke="black"
       stroke-width="2"
       x1="0"
-      x2="2000"
+      x2="100"
       y1="50"
       y2="50"
     />
@@ -39,7 +39,7 @@ exports[`Staff renders 1`] = `
       stroke="black"
       stroke-width="2"
       x1="0"
-      x2="2000"
+      x2="100"
       y1="75"
       y2="75"
     />
@@ -47,10 +47,69 @@ exports[`Staff renders 1`] = `
       stroke="black"
       stroke-width="2"
       x1="0"
-      x2="2000"
-      y1="100"
-      y2="100"
+      x2="100"
+      y1="99"
+      y2="99"
     />
   </svg>
+</div>
+`;
+
+exports[`Staff Renders with sizes 1`] = `
+<div>
+  <div
+    style="width: 100%; height: 100px;"
+  >
+    <svg
+      data-testid="staff"
+      height="100"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="0 0 100 100"
+      width="100%"
+      x="0"
+      y="0"
+    >
+      <line
+        stroke="black"
+        stroke-width="2"
+        x1="0"
+        x2="100"
+        y1="1"
+        y2="1"
+      />
+      <line
+        stroke="black"
+        stroke-width="2"
+        x1="0"
+        x2="100"
+        y1="25"
+        y2="25"
+      />
+      <line
+        stroke="black"
+        stroke-width="2"
+        x1="0"
+        x2="100"
+        y1="50"
+        y2="50"
+      />
+      <line
+        stroke="black"
+        stroke-width="2"
+        x1="0"
+        x2="100"
+        y1="75"
+        y2="75"
+      />
+      <line
+        stroke="black"
+        stroke-width="2"
+        x1="0"
+        x2="100"
+        y1="99"
+        y2="99"
+      />
+    </svg>
+  </div>
 </div>
 `;
