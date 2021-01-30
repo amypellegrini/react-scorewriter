@@ -1,7 +1,5 @@
 import React from 'react';
 
-import './Staff.css';
-
 export interface StaffProps extends React.SVGAttributes<HTMLOrSVGElement> {}
 
 export default function Staff({
