@@ -10,7 +10,8 @@
     "outDir": "./lib",
     "declaration": true,
     "lib": ["ES6", "DOM"],
-    "types": ["node", "jest"]
+    "types": ["node", "jest"],
+    "typeRoots": ["node_modules/@types"]
   },
   "include": ["./src"],
   "exclude": ["./**/__tests__/*", "./**/*.stories.tsx"]
