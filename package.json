@@ -13,7 +13,7 @@
   "private": false,
   "scripts": {
     "test": "jest",
-    "test -w": "jest --watch",
+    "test:watch": "jest --watch",
     "sb": "storybook",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
