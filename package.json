@@ -15,6 +15,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "sb": "storybook",
+    "prepublish": "yarn build",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build": "tsc"
