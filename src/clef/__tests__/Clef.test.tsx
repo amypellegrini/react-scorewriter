@@ -2,24 +2,28 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { assert } from 'chai';
 
-import Clef from '../Clef';
+import Clef, { ClefName } from '../Clef';
+
+const clefs = ['G', 'F', 'C'];
 
 describe('Clef', () => {
-  it('renders a G Clef', () => {
-    render(<Clef name="G-clef" />);
-    assert.ok(screen.getByTestId('G-clef'));
-    expect(screen.getByTestId('G-clef')).toMatchSnapshot();
+  it.each(clefs)('renders a %s Clef', (clef) => {
+    const clefName = `${clef}-clef` as ClefName;
+
+    render(<Clef name={clefName} />);
+
+    assert.ok(screen.getByTestId(clefName));
+    expect(screen.getByTestId(clefName)).toMatchSnapshot();
   });
 
-  it('renders an F Clef', () => {
-    render(<Clef name="F-clef" />);
-    assert.ok(screen.getByTestId('F-clef'));
-    expect(screen.getByTestId('F-clef')).toMatchSnapshot();
-  });
+  it.each(clefs)('supports x and y props', (clef) => {
+    const clefName = `${clef}-clef` as ClefName;
 
-  it('renders a C Clef', () => {
-    render(<Clef name="C-clef" />);
-    assert.ok(screen.getByTestId('C-clef'));
-    expect(screen.getByTestId('C-clef')).toMatchSnapshot();
+    render(<Clef x={32} y={64} name={clefName} />);
+
+    const clefElement = screen.getByTestId(clefName);
+
+    expect(clefElement.getAttribute('x')).toBe('32');
+    expect(clefElement.getAttribute('y')).toBe('64');
   });
 });
